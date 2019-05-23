@@ -1,0 +1,211 @@
+[debug] [2019-03-26T14:51:30.016Z] ----------------------------------------------------------------------
+[debug] [2019-03-26T14:51:30.019Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --project SpaceShooter--only hosting
+[debug] [2019-03-26T14:51:30.020Z] CLI Version:   6.5.0
+[debug] [2019-03-26T14:51:30.020Z] Platform:      linux
+[debug] [2019-03-26T14:51:30.020Z] Node Version:  v8.10.0
+[debug] [2019-03-26T14:51:30.020Z] Time:          Tue Mar 26 2019 15:51:30 GMT+0100 (CET)
+[debug] [2019-03-26T14:51:30.020Z] ----------------------------------------------------------------------
+[debug] 
+[error] 
+[error] Error: Too many arguments. Run firebase help serve for usage instructions
+[debug] [2019-03-26T14:51:34.800Z] ----------------------------------------------------------------------
+[debug] [2019-03-26T14:51:34.802Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --project SpaceShooter --only hosting
+[debug] [2019-03-26T14:51:34.802Z] CLI Version:   6.5.0
+[debug] [2019-03-26T14:51:34.802Z] Platform:      linux
+[debug] [2019-03-26T14:51:34.802Z] Node Version:  v8.10.0
+[debug] [2019-03-26T14:51:34.802Z] Time:          Tue Mar 26 2019 15:51:34 GMT+0100 (CET)
+[debug] [2019-03-26T14:51:34.802Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-26T14:51:34.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-26T14:51:34.811Z] > authorizing via signed-in user
+[debug] [2019-03-26T14:51:34.811Z] [iam] checking project SpaceShooter for permissions ["firebase.projects.get"]
+[debug] [2019-03-26T14:51:34.816Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions  
+
+[debug] [2019-03-26T14:51:35.654Z] <<< HTTP RESPONSE 500
+[debug] [2019-03-26T14:51:35.655Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-03-26T14:51:35.659Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 26 Mar 2019 14:51:35 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=629",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "cloudresourcemanager.googleapis.com",
+        "port": 443,
+        "hostname": "cloudresourcemanager.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1/projects/SpaceShooter:testIamPermissions",
+        "path": "/v1/projects/SpaceShooter:testIamPermissions",
+        "href": "https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-03-26T14:52:07.926Z] ----------------------------------------------------------------------
+[debug] [2019-03-26T14:52:07.928Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting --project SpaceShooter
+[debug] [2019-03-26T14:52:07.928Z] CLI Version:   6.5.0
+[debug] [2019-03-26T14:52:07.928Z] Platform:      linux
+[debug] [2019-03-26T14:52:07.928Z] Node Version:  v8.10.0
+[debug] [2019-03-26T14:52:07.928Z] Time:          Tue Mar 26 2019 15:52:07 GMT+0100 (CET)
+[debug] [2019-03-26T14:52:07.928Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-26T14:52:07.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-26T14:52:07.936Z] > authorizing via signed-in user
+[debug] [2019-03-26T14:52:07.936Z] [iam] checking project SpaceShooter for permissions ["firebase.projects.get"]
+[debug] [2019-03-26T14:52:07.938Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions  
+
+[debug] [2019-03-26T14:52:08.723Z] <<< HTTP RESPONSE 500
+[debug] [2019-03-26T14:52:08.723Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-03-26T14:52:08.727Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 26 Mar 2019 14:52:09 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=631",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "cloudresourcemanager.googleapis.com",
+        "port": 443,
+        "hostname": "cloudresourcemanager.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1/projects/SpaceShooter:testIamPermissions",
+        "path": "/v1/projects/SpaceShooter:testIamPermissions",
+        "href": "https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-03-26T14:52:15.524Z] ----------------------------------------------------------------------
+[debug] [2019-03-26T14:52:15.526Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting --project SpaceShooter
+[debug] [2019-03-26T14:52:15.526Z] CLI Version:   6.5.0
+[debug] [2019-03-26T14:52:15.526Z] Platform:      linux
+[debug] [2019-03-26T14:52:15.526Z] Node Version:  v8.10.0
+[debug] [2019-03-26T14:52:15.526Z] Time:          Tue Mar 26 2019 15:52:15 GMT+0100 (CET)
+[debug] [2019-03-26T14:52:15.526Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-26T14:52:15.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-26T14:52:15.536Z] > authorizing via signed-in user
+[debug] [2019-03-26T14:52:15.536Z] [iam] checking project SpaceShooter for permissions ["firebase.projects.get"]
+[debug] [2019-03-26T14:52:15.537Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions  
+
+[debug] [2019-03-26T14:52:16.508Z] <<< HTTP RESPONSE 500
+[debug] [2019-03-26T14:52:16.508Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-03-26T14:52:16.513Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 26 Mar 2019 14:52:16 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=626",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "cloudresourcemanager.googleapis.com",
+        "port": 443,
+        "hostname": "cloudresourcemanager.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1/projects/SpaceShooter:testIamPermissions",
+        "path": "/v1/projects/SpaceShooter:testIamPermissions",
+        "href": "https://cloudresourcemanager.googleapis.com/v1/projects/SpaceShooter:testIamPermissions"
+      },
+      "method": "POST"
+    }
+  }
+}

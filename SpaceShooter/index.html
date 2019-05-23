@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="classes/ship.js"></script>
+    <script src="classes/gameArea.js"></script>
+    <script src="classes/button.js"></script>
+    <script src="game.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>spaceshooter</title>
+    <style>
+        canvas {
+            border: 1px solid #d3d3d3;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body onload="startGame()">
+    
+    <canvas id="canvas" width="270", height="480"></canvas><br />
+    <button type="button" onmousedown="gameArea.playerShip.moveLeft()" onmouseup="gameArea.playerShip.stop()">Gauche</button>
+    <button type="button" onmousedown="gameArea.playerShip.moveRight()" onmouseup="gameArea.playerShip.stop()">Droite</button>
+    
+</body>
+</html>

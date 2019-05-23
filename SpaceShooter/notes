@@ -1,0 +1,15 @@
+<img src="a.gif" style="display: none;"></img>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+    // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyDpcGEUibxrdB9cpi9KWI0hkaOnwox5oDI",
+        authDomain: "spaceshooter-3c83d.firebaseapp.com",
+        databaseURL: "https://spaceshooter-3c83d.firebaseio.com",
+        projectId: "spaceshooter-3c83d",
+        storageBucket: "spaceshooter-3c83d.appspot.com",
+        messagingSenderId: "713484819345"
+    };
+    firebase.initializeApp(config);
+</script>
