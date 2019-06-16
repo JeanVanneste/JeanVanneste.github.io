@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="classes/bullet.js"></script>
     <script src="classes/ship.js"></script>
     <script src="classes/gameArea.js"></script>
     <script src="classes/button.js"></script>
@@ -12,15 +13,17 @@
     <style>
         canvas {
             border: 1px solid #d3d3d3;
-            background-color: #f1f1f1;
+        background-color: #f1f1f1;
         }
     </style>
 </head>
 <body onload="startGame()">
     
     <canvas id="canvas" width="270", height="480"></canvas><br />
-    <button type="button" onmousedown="gameArea.playerShip.moveLeft()" onmouseup="gameArea.playerShip.stop()">Gauche</button>
-    <button type="button" onmousedown="gameArea.playerShip.moveRight()" onmouseup="gameArea.playerShip.stop()">Droite</button>
-    
+    <center><button type="button" onmousedown="gameArea.playerShip.moveLeft()" onmouseup="gameArea.playerShip.stop()">Gauche</button>
+    <button type="button" onmousedown="gameArea.playerShip.moveRight()" onmouseup="gameArea.playerShip.stop()">Droite</button></center><br />   
+    <button type="button" onclick="gameArea.stop()">Pause</button>
+    <button type="button" onclick="gameArea.unpause()">Unpause</button><br />
+    <button onclick="gameArea.start()">Restart</button>
 </body>
 </html>
