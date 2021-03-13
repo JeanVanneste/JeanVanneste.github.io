@@ -16,7 +16,10 @@
     "url": "https://github.com/JeanVanneste/SpaceShooter/issues"
   },
   "homepage": "https://github.com/JeanVanneste/SpaceShooter#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.13.0"
