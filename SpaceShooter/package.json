@@ -18,7 +18,7 @@
   "homepage": "https://github.com/JeanVanneste/SpaceShooter#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
